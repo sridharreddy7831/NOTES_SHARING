@@ -21,15 +21,12 @@ This project is a web-based application designed to allow users to share notes o
     ```bash
     cd Online-Notes-Sharing
     ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Apply migrations:
+
+3. Apply migrations:
     ```bash
     python manage.py migrate
     ```
-5. Run the development server:
+4. Run the development server:
     ```bash
     python manage.py runserver
     ```
